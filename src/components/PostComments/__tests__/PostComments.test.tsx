@@ -11,7 +11,7 @@ describe('Testes para o componente PostComments', () => {
         // usei para ver se os comentarios estavam funcionando: const {debug} = 
         render(<PostComments />)
 
-        // Criei 2 constantes para chamar nos testes sem precisar escrever tudo dnovo:
+        // Criei 2 constantes para chamar nas mudanças do fireEvent sem precisar escrever tudo dnovo:
         const textarea = screen.getByTestId('campo-comentario') 
         const botao = screen.getByTestId('btn-comentar')
 
